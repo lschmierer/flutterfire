@@ -1,3 +1,7 @@
+## 5.1.7
+
+* Fix push notifications clearing after app launch on iOS.
+
 ## 5.1.6
 
 * Fix warnings when compiling on Android.
