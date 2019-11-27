@@ -1,6 +1,10 @@
-## 6.0.2
+## 6.0.3
 
 * Fix push notifications clearing after app launch on iOS.
+
+## 6.0.2
+
+* Fixed a build warning caused by availability check.
 
 ## 6.0.1
 
