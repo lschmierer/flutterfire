@@ -1,3 +1,13 @@
+## 6.1.0
+* Implement `UNUserNotificationCenterDelegate` methods to allow plugin to work when method swizzling is disabled
+* **Breaking change** Applications now only need to their iOS project's `AppDelegate` when method swizzling is disabled
+* **Breaking change** Applications that need to use `firebase_messaging` with other notification plugins will
+  will need to add the following to their iOS project's `Info.plist` file
+  ```xml
+  <key>FirebaseAppDelegateProxyEnabled</key>
+  <false/>
+  ```
+
 ## 6.0.11
 
 * Fix push notifications clearing after app launch on iOS.
